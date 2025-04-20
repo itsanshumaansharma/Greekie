@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="logoGreekie.png" type="image/png"> <!-- 👈 This Line for Company Logo Icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <title>Greekie</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+<body>
+    <!-- <i class="fa-brands fa-slack"></i> -->
+    <!-- Greekie AI Logo -->
+    <div class="ai-logo">
+        <h1><i class="fa-brands fa-slack"></i> Greekie</h1>
+    </div>
+    <!-- Chat Box Area -->
+    <div class="chat-container">
+        <!-- User  -->
+        <!-- It is implemented dynamically through JavaScript -->
+        <!-- <div class="user-chat-box">
+            <img src="user.png" alt="" id="userImage" width="50">
+            <div class="user-chat-area">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo reprehenderit, odio eos hic quibusdam sunt voluptatem minus vitae rerum nam nobis tempore sed non illo est impedit distinctio voluptatum!</p>
+            </div>
+        </div> -->
+
+        <!-- AI -->
+        <div class="ai-chat-box">
+            <!-- It is implemented dynamically through JavaScript -->
+            <img src="chatbot.png" alt="" id="aiImage" width="50">
+            <div class="ai-chat-area">
+                <h3>Welcome to <i class="fa-brands fa-slack"></i> Greekie</h3>
+                <p>Ask me anything — from creative writing to coding help and more.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Message Area -->
+    <div class="prompt-area">
+        <button id="newChatbtn"><i class="fa-solid fa-pen-to-square"></i></button>
+        <textarea id="prompt" placeholder="Message Greekie..." rows="1"></textarea>
+        <!-- <input type="text" name="prompt" id="prompt" placeholder="Message Greekie..."> -->
+        <button id="image"><i class="fa-solid fa-image"></i><input type="file" accept="images/*" hidden></button>
+        <!-- <button id="file"><i class="fa-solid fa-file"></i></button> -->
+        <button id="submit"><i class="fa-solid fa-up-long"></i></button>
+    </div>
+    <footer>
+        <p id="footer">&copy; 2025 Anshumaan Sharma. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
